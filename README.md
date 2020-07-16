@@ -1,7 +1,7 @@
 ![Image of Feathers](https://feathersjs.com/img/feathers-logo-wide.png)
 
 
-# flutter_feathers_core
+# flutter_feathers
 
 This library aims to bring most of the Feathers.js client functionality to flutter while also keeping its modularity.
 This Project is bascially just a Blueprint for so called `FeatherProviders`.
