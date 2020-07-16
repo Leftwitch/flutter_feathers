@@ -1,5 +1,4 @@
-import 'package:feathers_core/src/provider/feathers_provider.dart';
-import 'package:feathers_core/src/service/feathers_service.dart';
+import 'package:flutter_feathers/flutter_feathers.dart';
 
 class Feathers {
   FeathersProvider _feathersProvider;

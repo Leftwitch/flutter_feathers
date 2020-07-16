@@ -1,4 +1,5 @@
-import 'package:feathers_core/src/provider/feathers_provider.dart';
+
+import 'package:flutter_feathers/flutter_feathers.dart';
 
 abstract class FeathersService {
   String serviceName;
