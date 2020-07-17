@@ -40,7 +40,7 @@ var prefs = await SharedPreferences.getInstance();
 
 app.configureAuthentication(
     (stored) => prefs.setString('auth', stored),
-    () => prefs.getString('auth'),
+    () async=> prefs.getString('auth'),
 );
 ```
 
@@ -54,7 +54,7 @@ var prefs = await SharedPreferences.getInstance();
 
 app.configureAuthentication(
     (stored) => prefs.setString('auth', stored),
-    () => prefs.getString('auth'),
+    () async => prefs.getString('auth'),
     authServiceName: 'login' //Uses /login insteadof /authentication
 );
 ```
